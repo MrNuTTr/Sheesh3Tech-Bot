@@ -30,7 +30,7 @@ async def on_message(message):
         return
 
     if message.content == 'hlp pam' or message.content == 'hlp Pam':
-        await message.channel.send('No just No')
+        await message.channel.send('PIss off')
 
 @client.event
 async def on_message(message):
