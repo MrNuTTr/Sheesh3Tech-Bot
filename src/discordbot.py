@@ -30,7 +30,7 @@ async def on_message(message):
         return
 
     if message.content == 'hlp pam' or message.content == 'hlp Pam':
-        await message.channel.send('No just No')
+        await message.channel.send('PIss off')
 
 @client.event
 async def on_message(message):
@@ -47,6 +47,14 @@ async def on_message(message):
 
     if message.content == 'hlp suicide' or message.content == 'hlp Suicide':
         await message.channel.send('Suicide isnt the answer unless youre in IT because then its the right thing to do.')
+
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
+
+    if message.content == 'hlp Bruh' or message.content == 'hlp bruh':
+        await message.channel.send('Bruh why am I supposed to help you huh?')
 
 
 client.run(TOKEN)
