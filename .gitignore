@@ -247,3 +247,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,windows,macos,linux
+
+# API tokens
+tokens.json
