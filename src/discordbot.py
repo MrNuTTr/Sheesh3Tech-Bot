@@ -1,5 +1,7 @@
 import discord
 import json
+import random
+from messages import rand_stuffs
 import messages
 
 # Load the file containing needed tokens
@@ -21,12 +23,16 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+    index = random.randint(0, len(rand_stuffs)-1)
+
+    await message.channel.send(rand_stuffs[index])
+
     # If the content of the message is a key in the message dictionary
-    if message.content in messages.message_dict:
+    #if message.content in messages.message_dict:
         # Then send a message that matches the key
-        await message.channel.send(messages.message_dict[message.content])
+    #    await message.channel.send(messages.message_dict[message.content])
         # Print output to the console
-        print("Sent message in " + message.channel.name + ":" + 
-                messages.message_dict[message.content])
+    #    print("Sent message in " + message.channel.name + ":" + 
+    #            messages.message_dict[message.content])
 
 client.run(tokens["discord"])
