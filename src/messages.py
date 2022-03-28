@@ -8,3 +8,12 @@ message_dict = {
     "hlp suicide" : "Suicide isnt the answer unless youre in IT because then its the right thing to do.",
     "hlp bruh" : "Bruh why am I supposed to help you huh?"
 }
+
+rand_stuffs = [
+    "Hello! Thank you for contacting C3 Tech! A tech will be able to assist you shortly!",
+    "Hi! Please go to help.myc3.tech and a tech will give you were code when you are at the screen that says 'please join with a code!'",
+    "PIss off",
+    "My Mom? I think you mean your mom cause I did her last night and im a bot.",
+    "Suicide isnt the answer unless youre in IT because then its the right thing to do.",
+    "Bruh why am I supposed to help you huh?"
+]
