@@ -46,5 +46,15 @@ rand_stuffs = [
     "I hate paying for gas",
     "Can we turbo charge a car",
     "Minecraft",
-    "Cat"
+    "Cat",
+    "L + ratio",
+    "No Bitches?",
+    "You got that dumpy",
+    "Zamn!",
+    "FNF be like",
+    "Connection terminated. I'm sorry to interrupt you, Elizabeth. If you still even remember that name. But I'm afraid you've been misinformed.",
+    "Linus Cock Tips",
+    "Let me drop this RTX 3090 real quick",
+    "family guy death pose",
+    "Sheesh"
 ]
