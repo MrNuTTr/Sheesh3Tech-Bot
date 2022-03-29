@@ -56,5 +56,8 @@ rand_stuffs = [
     "Linus Cock Tips",
     "Let me drop this RTX 3090 real quick",
     "family guy death pose",
-    "Sheesh"
+    "Sheesh",
+    "tankman",
+    ":thumbsup:",
+    "ugh"
 ]
