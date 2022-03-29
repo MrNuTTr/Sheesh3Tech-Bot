@@ -15,36 +15,36 @@ rand_stuffs = [
     "PIss off",
     "My Mom? I think you mean your mom cause I did her last night and im a bot.",
     "Suicide isnt the answer unless youre in IT because then its the right thing to do.",
-    "Bruh why am I supposed to help you huh?"
-    "Deez Nuts"
-    "Balls"
-    "Please give me your Credit Card number, the expirate date, and the 3 number on the back of the card."
-    "We do not care"
-    "Poggers"
-    "Hi this is your mom with C3 Tech"
-    "Free Bitcoins"
-    "I hate my life"
-    "Eat my whole ass bitch"
-    "Have you ever ate a whole chicken at once?"
-    "Where's the lasagna John"
-    "Yes I am real Ben do your job"
-    "I dont get paid enough for this shit and I work for free"
-    "Wow did you go to comedy central to get that joke."
-    "Going to Coyle. :("
-    ":rock~1:"
-    ":headpat:"
-    "I swear im not stupid"
-    "Apple products suck ass ON GOD"
-    "Fuck you"
-    "Valorant Later?"
-    "I like Trains"
-    "https://www.youtube.com/watch?v=-K6UX5pjF9I&t=206s"
-    "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    "ok enough of the locker room talk"
-    "I hate geeksquad"
-    "my Iphone broke for the 1000 time"
-    "I hate paying for gas"
-    "Can we turbo charge a car"
-    "Minecraft"
+    "Bruh why am I supposed to help you huh?",
+    "Deez Nuts",
+    "Balls",
+    "Please give me your Credit Card number, the expirate date, and the 3 number on the back of the card.",
+    "We do not care",
+    "Poggers",
+    "Hi this is your mom with C3 Tech",
+    "Free Bitcoins",
+    "I hate my life",
+    "Eat my whole ass bitch",
+    "Have you ever ate a whole chicken at once?",
+    "Where's the lasagna John",
+    "Yes I am real Ben do your job",
+    "I dont get paid enough for this shit and I work for free",
+    "Wow did you go to comedy central to get that joke.",
+    "Going to Coyle. :(",
+    ":rock~1:",
+    ":headpat:",
+    "I swear im not stupid",
+    "Apple products suck ass ON GOD",
+    "Fuck you",
+    "Valorant Later?",
+    "I like Trains",
+    "https://www.youtube.com/watch?v=-K6UX5pjF9I&t=206s",
+    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "ok enough of the locker room talk",
+    "I hate geeksquad",
+    "my Iphone broke for the 1000 time",
+    "I hate paying for gas",
+    "Can we turbo charge a car",
+    "Minecraft",
     "Cat"
 ]
