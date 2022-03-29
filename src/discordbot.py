@@ -14,6 +14,15 @@ token_file.close()
 
 client = discord.Client()
 
+ticketrequesturl = "https://myc3.syncromsp.com/api/v1/tickets"
+
+
+
+result = requests.get("https://myc3.syncromsp.com/api/v1/tickets", params={"Authorization": "{key}".format(key=tokens["syncro"])})
+json = result.json()
+count = 0
+print(json)
+
 @client.event
 async def on_ready():
     print(f"Logged in as {client.user}") 
@@ -25,12 +34,12 @@ async def on_message(message):
         return
 
     if message.content == "hlp tickets" or message.content == "hlp ticket":
-        result = requests.get("https://myc3.syncromsp.com/api/v1/tickets", params={"api-key": tokens["syncro"]})
+        result = requests.get("https://myc3.syncromsp.com/api/v1/tickets", params={"Authorization": tokens["syncro"]})
         json = result.json()
         count = 0
-        for i in json["tickets"]:
-            count += 1
-        message.channel.send("Wow boi, we got " + str(count) + " tickets!")
+        print(json)
+
+        #message.channel.send("Wow boi, we got " + str(count) + " tickets!")
 
     index = random.randint(0, len(rand_stuffs)-1)
 
