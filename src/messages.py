@@ -135,6 +135,24 @@ rand_stuffs = [
     "good",
     "Who is your poop dealer",
     "WAKE THE FUCK UP ",
-    
-
+    "You go fist :point_right_tone1::point_left_tone5::flushed:",
+    ":howie: is this you",
+    "are you okay",
+    "say it",
+    "i hate you",
+    "omg we are twins",
+    "i wonder if computers think",
+    "yeah they probably won't",
+    "I will eat cheese burger",
+    "hey you know what day January 17th is right?",
+    "HOWIE!!!!!",
+    "JoJo",
+    "Before you go go",
+    "the fuck",
+    "kek",
+    "yeah well you left me hanging for 20 seconds",
+    "You made him hostile steve",
+    "prank em John",
+    "im dying of laughter",
+    ":stfu:"
 ]
