@@ -154,7 +154,7 @@ rand_stuffs = [
     "You made him hostile steve",
     "prank em John",
     "im dying of laughter",
-    ":stfu:",
+    " :stfu:",
     "APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS",
 
 ]
