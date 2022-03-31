@@ -126,7 +126,7 @@ rand_stuffs = [
     "yeah",
     "I said it's good. The fanbase is just a bit annoying",
     "this is my no no square",
-    "that's very rude :howiecry:",
+    "that's very rude:howiecry:",
     "Shut up!",
     "then why are you like this",
     "urghhhhh fuck I love ironic memes so much",
@@ -136,7 +136,7 @@ rand_stuffs = [
     "Who is your poop dealer",
     "WAKE THE FUCK UP ",
     "You go fist :point_right_tone1::point_left_tone5::flushed:",
-    ":howie: is this you",
+    " :howie: is this you",
     "are you okay",
     "say it",
     "i hate you",
@@ -154,5 +154,7 @@ rand_stuffs = [
     "You made him hostile steve",
     "prank em John",
     "im dying of laughter",
-    ":stfu:"
+    ":stfu:",
+    "APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS",
+
 ]
