@@ -1,7 +1,7 @@
 message_dict = {
     "hlp hi" : "Hello! Thank you for contacting C3 Tech! A tech will be able to assist you shortly!",
     "hlp remote" : "Hi! Please go to help.myc3.tech and a tech will give you were code when you are at the screen that says 'please join with a code!'",
-    "hlp pam" : "PIss off",
+    "hlp pam a" : "PIss off",
     "hlp ur mum" : "My Mom? I think you mean your mom cause I did her last night and im a bot.",
     "hlp your mom" : "My Mom? I think you mean your mom cause I did her last night and im a bot.",
     "ur mom" : "My Mom? I think you mean your mom cause I did her last night and im a bot.",
@@ -156,5 +156,5 @@ rand_stuffs = [
     "im dying of laughter",
     " :stfu:",
     "APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS APPLE SUCKS",
-
+    "Joe Biden",
 ]
