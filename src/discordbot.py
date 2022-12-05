@@ -26,7 +26,7 @@ def ai_text(message):
         max_tokens=128
     )
     return completion.choices[0].text
-
+    
 @client.event
 async def on_ready():
     print(f"Logged in as {client.user}") 
