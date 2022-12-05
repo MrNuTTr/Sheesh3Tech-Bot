@@ -1,2 +1,2 @@
 # Sheesh3Tech-Bot
-A chat bot using GPT-3
+A discord chat bot using GPT-3. WIP
