@@ -40,12 +40,8 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    print(message)
-
     if message.channel.id == 956535878057066587:
-        print("Message content: " + message.content)
         text = ai_text(message.content)
-        print(text)
         await message.channel.send(text)
 
 client.run(tokens["discord"])
