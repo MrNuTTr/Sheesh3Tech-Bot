@@ -3,11 +3,8 @@ from discord.ext import commands
 import openai
 import json
 
-# Load the file containing needed tokens
 token_file = open("tokens.json")
-# Parse the json into a python object
 tokens = json.load(token_file)
-# Close the file
 token_file.close()
 
 # Discord intents settings
