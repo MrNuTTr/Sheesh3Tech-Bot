@@ -42,4 +42,3 @@ async def on_message(message):
         await message.channel.send(text)
 
 client.run(tokens["discord"])
-#testing
