@@ -37,7 +37,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.channel.id == "tech-support":
+    if message.channel.name == "tech-support":
         text = ai_text(message.content)
         await message.channel.send(text)
 
