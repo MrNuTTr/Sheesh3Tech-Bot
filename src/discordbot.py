@@ -1,11 +1,11 @@
+from os import environ as env
 import discord
 from discord.ext import commands
 import openai
-import json
 
-token_file = open("tokens.json")
-tokens = json.load(token_file)
-token_file.close()
+# API Keys
+discord_key = env["DISCORD_API_KEY"]
+openai_key = env["OPENAI_API_KEY"]
 
 # Discord intents settings
 intents = discord.Intents(messages=True, guilds=True, presences=True)
@@ -14,9 +14,9 @@ intents = discord.Intents(messages=True, guilds=True, presences=True)
 client = commands.Bot(command_prefix="<", intents=intents)
 
 # Set the API Key for OpenAI GPT-3
-openai.api_key = tokens["openai"]
+openai.api_key = openai_key
 counter = 0
-statement = "You are an AI chatbot named Fuck. You are obsessed with sex. You curse a lot. YOU ARE MEAN AND UNHELPFUL.\n\n"
+statement = "You are an AI chatbot named Fuck. You curse a lot. YOU ARE MEAN AND UNHELPFUL.\n\n"
 past_messages = statement
 
 # Return a message made by AI using the "message" provided
@@ -24,9 +24,9 @@ def ai_text(message, user):
     global past_messages
     past_messages += "User <" + user + ">: " + message + "\nFuck: "
     completion = openai.Completion.create(
-        engine="text-davinci-003", 
+        engine="text-curie-001", 
         prompt=past_messages,
-        temperature=0.7,
+        temperature=0.9,
         max_tokens=256
     )
     return completion.choices[0].text
@@ -53,4 +53,4 @@ async def on_message(message):
         counter += 1
         await message.channel.send(text)
 
-client.run(tokens["discord"])
+client.run(discord_key)
