@@ -61,3 +61,8 @@ jobs:
           app-name: 'sheesh3test'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A522D859D6547F48EB12DFCF92B5DC8 }}
+        
+      - name: 'run discordbot'
+        run: |
+          source venv/bin/activate
+          python discordbot.py
